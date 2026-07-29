@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {
+      "id": "author_skills",
+      "type": "likert",
+      "text": "The author of the article is a good writer.",
+      "scale": 7,
+      "anchors": { "low": "Strongly disagree", "high": "Strongly agree" }
+    },
+    {
+      "id": "author_knowledge",
+      "type": "likert",
+      "text": "The author of the article is knowledgeable about the article's topic.",
+      "scale": 7,
+      "anchors": { "low": "Strongly disagree", "high": "Strongly agree" }
+    },
+    {
+      "id": "willingness_read_again",
+      "type": "likert",
+      "text": "I would read another piece by this author.",
+      "scale": 7,
+      "anchors": { "low": "Strongly disagree", "high": "Strongly agree" }
+    },
+    {
+      "id": "quality_style",
+      "type": "likert",
+      "text": "This article is well written in terms of style.",
+      "scale": 7,
+      "anchors": { "low": "Strongly disagree", "high": "Strongly agree" }
+    },
+    {
+      "id": "quality_argument",
+      "type": "likert",
+      "text": "This article is well written in terms of argument.",
+      "scale": 7,
+      "anchors": { "low": "Strongly disagree", "high": "Strongly agree" }
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;500;600&display=swap");
+
+:root {
+  --bg: #f7f5f0;
+  --surface: #ffffff;
+  --text: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #ddd6c8;
+  --accent: #2d4a6f;
+  --accent-hover: #1e3550;
+  --note-bg: #f3e8ff;
+  --note-border: #9333ea;
+  --note-text: #581c87;
+  --danger: #8b2e2e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.55;
+  color: var(--text);
+  background: var(--bg);
+}
+
+a {
+  color: var(--accent);
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lora", Georgia, serif;
+  line-height: 1.25;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.75rem;
+}
+
+.btn {
+  display: inline-block;
+  appearance: none;
+  border: none;
+  border-radius: 6px;
+  padding: 0.65rem 1.25rem;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover:not(:disabled) {
+  background: var(--accent-hover);
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border);
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.article-headline {
+  font-family: "Lora", Georgia, serif;
+  font-size: 2rem;
+  margin: 0 0 0.5rem;
+}
+
+.read-instruction {
+  margin: 0 0 1.25rem;
+  font-weight: 600;
+}
+
+.article-byline {
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+  font-size: 0.95rem;
+}
+
+.article-body {
+  font-family: "Lora", Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.article-body p {
+  margin: 0 0 1rem;
+}
+
+.editors-note {
+  background: var(--note-bg);
+  border: 2px solid var(--note-border);
+  border-left-width: 6px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  color: var(--note-text);
+  box-shadow: 0 2px 8px rgba(147, 51, 234, 0.15);
+}
+
+.editors-note-label {
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--note-border);
+  margin-bottom: 0.5rem;
+}
+
+.editors-note p {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.question-block {
+  margin-bottom: 1.75rem;
+}
+
+.question-text {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.likert-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--likert-cols, 7), minmax(2rem, 1fr));
+  gap: 0.35rem 0.25rem;
+  align-items: start;
+  max-width: 100%;
+}
+
+.likert-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  justify-self: center;
+}
+
+.likert-option input {
+  margin: 0;
+}
+
+.likert-anchor {
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.3;
+  margin-top: 0.25rem;
+}
+
+.likert-anchor-low {
+  justify-self: start;
+  text-align: left;
+  max-width: 9rem;
+}
+
+.likert-anchor-high {
+  justify-self: end;
+  text-align: right;
+  max-width: 9rem;
+}
+
+.openended-input {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  font: inherit;
+  line-height: 1.5;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  resize: vertical;
+  min-height: 7rem;
+}
+
+.multichoice-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.multichoice-options label {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.form-actions {
+  margin-top: 2rem;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.error {
+  color: var(--danger);
+  margin-top: 0.5rem;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.65rem;
+  text-align: left;
+}
+
+.admin-table th {
+  background: var(--bg);
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stat-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.stat-box strong {
+  display: block;
+  font-size: 1.5rem;
+  font-family: "Lora", serif;
+}

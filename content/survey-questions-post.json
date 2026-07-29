@@ -1,0 +1,38 @@
+{
+  "questions": [
+    {
+      "id": "exit_ai_usage_general",
+      "type": "likert",
+      "text": "I use AI tools in my own work or studies.",
+      "scale": 7,
+      "anchors": { "low": "Never", "high": "Frequently" }
+    },
+    {
+      "id": "exit_ai_usage_writing",
+      "type": "likert",
+      "text": "I use AI tools to help me with writing tasks.",
+      "scale": 7,
+      "anchors": { "low": "Never", "high": "Frequently" }
+    },
+    {
+      "id": "exit_ai_text_quality",
+      "type": "likert",
+      "text": "AI-generated text is generally high quality.",
+      "scale": 7,
+      "anchors": { "low": "Strongly disagree", "high": "Strongly agree" }
+    },
+    {
+      "id": "exit_ai_support_quality",
+      "type": "likert",
+      "text": "AI tools can improve one's writing quality.",
+      "scale": 7,
+      "anchors": { "low": "Strongly disagree", "high": "Strongly agree" }
+    },
+    {
+      "id": "exit_anything_else",
+      "type": "openended",
+      "text": "Anything else you would like to share?",
+      "optional": true
+    }
+  ]
+}

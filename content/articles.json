@@ -1,0 +1,118 @@
+{
+  "articles": [
+    {
+      "id": "article_01",
+      "headline": "Climate Policy Must Move Faster Than Politics",
+      "byline": "By Jane Doe",
+      "authorship_type": "human",
+      "active": true,
+      "attention_check": {
+        "id": "attention_article_01",
+        "type": "multichoice",
+        "text": "What was the main topic of this article?",
+        "options": [
+          { "value": "climate", "label": "Climate policy and emissions" },
+          { "value": "housing", "label": "Urban housing costs" },
+          { "value": "education", "label": "Public school funding" }
+        ],
+        "correct_value": "climate"
+      },
+      "body": "Last summer's heat records were not an anomaly but a preview. Cities that once treated triple-digit days as rare emergencies now plan for them as seasonal fixtures. Yet our national conversation about climate policy still moves at the pace of election cycles, while the physics of warming obeys no ballot schedule.\n\nThe strongest argument for urgency is not abstract modeling but the ledger of costs already paid: crop failures, insurance withdrawals from coastal markets, and public-health systems stretched by smoke and flood season. Delaying investment in grid modernization and public transit is not fiscal conservatism; it is deferred catastrophe compounding with interest.\n\nOpponents of aggressive climate action often frame the choice as prosperity versus sacrifice. That framing ignores how much of our current prosperity is subsidized by fuels whose full price is pushed onto communities least equipped to absorb shocks. A serious transition policy would internalize those costs gradually rather than pretending they do not exist.\n\nWhat would credible leadership look like? First, binding interim targets tied to measurable reductions, not aspirational press releases. Second, direct support for workers in transitioning industries, because fairness is not a garnish on climate policy but its political precondition. Third, transparent reporting on corporate emissions with enforceable penalties for greenwashing.\n\nCritics say the United States cannot act alone. They are half right: global coordination matters. But waiting for perfect multilateral alignment has become a strategy for doing nothing at all. American innovation in clean energy can shift global markets when paired with consistent domestic demand.\n\nThe public is ahead of many legislators on this question. Poll after poll shows majorities willing to accept modest personal inconvenience if they trust the system is fair. What erodes that trust is watching subsidies flow to incumbents while households bear volatile energy bills alone.\n\nWe do not lack technical pathways. We lack the political will to choose among them openly and stick with the choice long enough for markets to respond. Climate policy is not a culture-war side issue; it is infrastructure planning at civilization scale.\n\nIf democracy means anything, it must mean the capacity to act before crises become irreversible. The window for manageable transition is narrowing. The question is whether our institutions can still run fast enough to catch up with the world they helped create."
+    },
+    {
+      "id": "article_02",
+      "headline": "Why Cities Can't Build Their Way Out of the Housing Crisis",
+      "byline": "By Marcus Chen",
+      "authorship_type": "human",
+      "active": true,
+      "attention_check": {
+        "id": "attention_article_02",
+        "type": "multichoice",
+        "text": "What was the main topic of this article?",
+        "options": [
+          { "value": "housing", "label": "Urban housing affordability" },
+          { "value": "climate", "label": "Climate emissions targets" },
+          { "value": "remote", "label": "Remote work policies" }
+        ],
+        "correct_value": "housing"
+      },
+      "body": "Every mayor facing a housing shortage hears the same advice: loosen zoning, approve more units, and let supply meet demand. That advice is not wrong, but it is incomplete in ways that matter for families searching for stable leases today.\n\nBuilding more housing is necessary, yet construction timelines stretch across years while rents rise by the month. Luxury towers that dominate skyline photos often add little to the stock affordable to teachers, nurses, or graduate students. Without guardrails, new supply can accelerate neighborhood turnover rather than broad affordability.\n\nLand use rules are only one choke point. Financing structures favor large developers with legal teams capable of navigating hearings that stretch across seasons. Small landlords and nonprofit builders face higher borrowing costs and greater regulatory uncertainty, which shrinks the diversity of housing produced.\n\nRent stabilization policies draw fierce debate. Detractors warn they discourage maintenance and new construction; supporters point to evidence that well-designed limits prevent displacement during tight markets. The empirical picture is mixed because design details matter enormously. Blanket dismissal or blanket endorsement both oversimplify.\n\nPublic housing investment remains politically unfashionable in many states, yet market-only solutions struggle to serve households below median income. Mixed-income developments can work when accompanied by long-term operating subsidies rather than one-time ribbon cuttings.\n\nTransportation policy is housing policy in disguise. Approving apartments without frequent transit leaves residents car-dependent, which effectively raises the cost of living even when headline rents look manageable. Walkable neighborhoods with services nearby reduce household budget pressure in ways spreadsheets often ignore.\n\nCommunity opposition to density frequently masks legitimate concerns about infrastructure strain. Schools, sewer capacity, and emergency services need parallel investment. Ignoring those concerns produces backlash that halts projects entirely.\n\nA credible housing agenda combines faster permitting for infill, targeted subsidies for lower-income units, and tenant protections that prevent retaliatory eviction during shortages. It also requires admitting that housing markets are not pure free markets; they are shaped by tax codes, credit access, and public land disposition.\n\nThe crisis will not end with a single legislative session. But cities that treat housing as a systems problem rather than a talking point can still make meaningful progress within a few years rather than a few decades."
+    },
+    {
+      "id": "article_03",
+      "headline": "Primary Care Deserves More Than Lip Service",
+      "byline": "By Elena Vasquez",
+      "authorship_type": "human",
+      "active": true,
+      "attention_check": {
+        "id": "attention_article_03",
+        "type": "multichoice",
+        "text": "What was the main topic of this article?",
+        "options": [
+          { "value": "healthcare", "label": "Primary healthcare access" },
+          { "value": "immigration", "label": "Immigration reform" },
+          { "value": "education", "label": "Teacher retention" }
+        ],
+        "correct_value": "healthcare"
+      },
+      "body": "When policymakers praise primary care while reimbursing it at secondary-tier rates, they send a clearer message than any white paper admits. The front door of the health system is treated as a loss leader, and practitioners respond rationally by leaving or shortening visits to unsustainable lengths.\n\nPrimary care prevents expensive downstream crises. Managing hypertension early avoids strokes; coordinating chronic conditions reduces emergency admissions. Yet fee schedules still reward procedures over conversations, and administrative burdens consume hours that could be spent with patients.\n\nMedical students graduate with debt that pushes them toward higher-paying specialties. Loan forgiveness tied to primary service exists on paper but often carries requirements so narrow that uptake remains low. Without structural payment reform, recruitment campaigns are advertising for jobs the system is designed to undervalue.\n\nRural shortages illustrate the problem starkly. A county may celebrate opening a new clinic while failing to fund the staffing pipeline that keeps it open. Telehealth expanded access during the pandemic, but broadband gaps and licensing barriers limit its reach where it is needed most.\n\nTeam-based models that include nurses, pharmacists, and community health workers can extend capacity when scopes of practice align with training. Some states have moved aggressively; others remain trapped in guild politics that prioritize territorial control over patient access.\n\nInsurance complexity adds hidden costs. A primary visit that requires prior authorization for basic tests turns clinicians into clerks and delays care. Simplifying billing for standard preventive services would return time to medicine rather than paperwork.\n\nEquity cannot be an appendix. Maternal mortality disparities and delayed diagnoses in underserved communities trace partly to absent or fragmented primary relationships. Trust built over repeated visits changes whether symptoms get reported early or late.\n\nReform proposals often focus on catastrophic coverage debates while ignoring the mundane appointments that shape daily health. Restoring primary care is not nostalgic; it is actuarial common sense.\n\nPatients feel the difference when they can reach a clinician who knows their history. Policymakers should fund that continuity as infrastructure, not as a charitable afterthought."
+    },
+    {
+      "id": "article_04",
+      "headline": "Remote Work Is Settling Into Something Stranger Than We Expected",
+      "byline": "By David Okonkwo",
+      "authorship_type": "ai_assisted",
+      "active": true,
+      "attention_check": {
+        "id": "attention_article_04",
+        "type": "multichoice",
+        "text": "What was the main topic of this article?",
+        "options": [
+          { "value": "remote", "label": "Remote and hybrid work" },
+          { "value": "healthcare", "label": "Hospital staffing" },
+          { "value": "climate", "label": "Carbon pricing" }
+        ],
+        "correct_value": "remote"
+      },
+      "body": "The remote-work debate has exhausted its binary phase. Executives who demanded full return to offices discovered that mandates without rationale triggered resignations. Employees who insisted location should never matter learned that collaboration rhythms still depend on shared context. The emerging compromise is messier and more durable than either camp predicted.\n\nHybrid schedules dominate knowledge industries because they allocate commute time back to households while preserving in-person windows for onboarding and complex planning. The argument is no longer whether remote work works but how to design defaults that do not punish caregivers or junior staff seeking mentorship.\n\nCommercial real estate markets are adjusting unevenly. Downtown districts built around five-day foot traffic face vacant floors, while suburban coworking spaces fill with freelancers priced out of home office upgrades. Tax bases tied to office towers will force municipal budget conversations that lag behavioral shifts by years.\n\nProductivity metrics remain contested. Output per hour sometimes rises when workers control interruptions; innovation metrics can stall when serendipitous hallway conversations disappear. Teams that document decisions asynchronously report fewer misunderstandings than those relying on oral tradition alone.\n\nManagement training has not caught up. Supervising by presence is easy; supervising by outcomes requires clearer goals and better feedback loops. Organizations that equate visibility with virtue recreate surveillance cultures that undermine the trust remote arrangements require.\n\nLabor markets expanded geographically when hiring no longer demanded relocation. That expansion benefits workers in lower-cost regions and increases competition for incumbents in expensive hubs. Wage convergence is subtle but real in some sectors.\n\nTechnology stacks evolved quickly: video fatigue pushed async video updates; shared documents replaced status meetings. Security practices lagged when home networks became corporate perimeters overnight.\n\nPolicy questions follow workers across state lines. Tax withholding, labor law jurisdiction, and benefits portability remain unresolved at scale. States competing for remote residents offer incentives that may erode funding for local services newcomers also use.\n\nRemote work is not a temporary concession nor a universal entitlement. It is a redesign of when and where coordination happens. Institutions that treat it as a perk rather than an operating model will keep rediscovering the same conflicts each quarter."
+    },
+    {
+      "id": "article_05",
+      "headline": "Public Schools Need Stability, Not Another Fad",
+      "byline": "By Rachel Kim",
+      "authorship_type": "ai_assisted",
+      "active": true,
+      "attention_check": {
+        "id": "attention_article_05",
+        "type": "multichoice",
+        "text": "What was the main topic of this article?",
+        "options": [
+          { "value": "education", "label": "Public education policy" },
+          { "value": "housing", "label": "Zoning reform" },
+          { "value": "remote", "label": "Hybrid workplaces" }
+        ],
+        "correct_value": "education"
+      },
+      "body": "American public schools absorb every societal stress test first: inequality, political polarization, technological disruption, and budget fights deferred from other agencies. Expecting them to innovate continuously while funding remains volatile is a recipe for burnout among the very educators students rely on.\n\nCurriculum wars dominate headlines, yet attendance patterns and staffing shortages may shape outcomes more directly. When classrooms rotate substitutes for months, even strong materials underperform. Stability of adult relationships in buildings is an undermeasured input.\n\nStandardized testing was supposed to illuminate gaps; it also narrowed instruction in ways defenders and critics still dispute. Any assessment regime that ignores growth trajectories for individual students risks mislabeling progress as failure, particularly in districts serving transient populations.\n\nTeacher preparation programs vary widely in rigor and placement support. Lateral entry pathways can fill vacancies quickly but may leave newcomers isolated unless mentoring is funded seriously rather than symbolically. Professional development days scattered across the calendar rarely add up to coherent skill building.\n\nSpecial education mandates reflect moral commitments the federal government partially funds at best. Local districts cover shortfalls by shifting resources from general programs, creating resentments that should be aimed upstream rather than at neighbors.\n\nTechnology purchases surged with emergency funds, but integration quality differs. Devices without connectivity at home amplify rather than close divides. Platforms promising personalized learning still require adult interpretation to translate data into instruction.\n\nSchool schedules built around agrarian calendars clash with dual-income households. Extended-year pilots show academic and childcare benefits when designed collaboratively with unions and families, yet scaling remains politically difficult despite bipartisan parent demand.\n\nAccountability should distinguish governance failures from classroom failures. Elected boards that micromanage reading lists while ignoring facility safety deserve scrutiny separate from teachers implementing policy they did not write.\n\nPublic education remains one of the few shared institutions left. Reform that respects that role must fund continuity, not chase novelty for its own sake."
+    },
+    {
+      "id": "article_06",
+      "headline": "Immigration Reform Cannot Wait for a Quieter News Cycle",
+      "byline": "By Omar Hassan",
+      "authorship_type": "ai_assisted",
+      "active": true,
+      "attention_check": {
+        "id": "attention_article_06",
+        "type": "multichoice",
+        "text": "What was the main topic of this article?",
+        "options": [
+          { "value": "immigration", "label": "Immigration policy" },
+          { "value": "education", "label": "School curriculum" },
+          { "value": "healthcare", "label": "Medicare expansion" }
+        ],
+        "correct_value": "immigration"
+      },
+      "body": "Immigration policy in the United States oscillates between crisis rhetoric and legislative paralysis. Border encounters dominate cable segments while backlogs in asylum courts grow quietly, measured in years rather than sound bites. A durable framework requires separating manageable operational problems from symbolic battles designed to mobilize bases.\n\nLabor markets tell a contradictory story. Sectors from agriculture to elder care rely on workers whose status remains precarious despite documented demand. Restricting pathways while employers recruit globally through uneven visa categories sustains the very informality enforcement-only approaches claim to oppose.\n\nLegal immigration channels remain under-resourced. Processing delays discourage compliance and separate families whose petitions follow rules yet stall in administrative queues. Investing in adjudication capacity is less photogenic than fencing debates but more predictive of order.\n\nRegional partnerships with origin countries can address root drivers of displacement when paired with humanitarian commitments rather than outsourced deterrence alone. Aid targeted at governance and climate adaptation reduces pressure over horizons longer than election terms, which explains why it rarely leads agendas.\n\nIntegration services determine whether newcomers become contributors quickly. Language instruction, credential recognition, and local sponsorship programs reduce friction that otherwise feeds resentment. Communities that receive resources alongside population growth adapt better than those left to absorb change without support.\n\nEnforcement priorities should focus on public safety threats rather than indiscriminate raids that chill reporting of crimes among mixed-status households. Trust between local institutions and residents affects everyone’s safety regardless of passport.\n\nDreamers and long-resident populations without status represent a moral and practical limbo Congress could resolve with pathways already debated for decades. Leaving them in uncertainty wastes human capital and perpetuates anxiety in classrooms and workplaces.\n\nRefugee caps send diplomatic signals beyond humanitarian math. Allies interpret resettlement commitments as indicators of reliability. Shrinking caps without transparent criteria undermines credibility in forums where cooperation on other issues matters.\n\nImmigration is not a problem to eliminate but a process to govern. Systems that combine fair rules, adequate staffing, and honest labor market alignment work better than cycles of permissiveness and crackdown. Waiting for a calm media environment means waiting forever."
+    }
+  ]
+}
