@@ -2,8 +2,8 @@
   "articles": [
     {
       "id": "article_01",
-      "headline": "Climate Policy Must Move Faster Than Politics",
-      "byline": "By Jane Doe",
+      "headline": "School Is Not a Factory for Credentials",
+      "author": "A",
       "authorship_type": "human",
       "active": true,
       "attention_check": {
@@ -11,37 +11,77 @@
         "type": "multichoice",
         "text": "What was the main topic of this article?",
         "options": [
-          { "value": "climate", "label": "Climate policy and emissions" },
-          { "value": "housing", "label": "Urban housing costs" },
-          { "value": "education", "label": "Public school funding" }
+          {
+            "value": "education",
+            "label": "The importance of education"
+          },
+          {
+            "value": "housing",
+            "label": "Urban housing costs"
+          },
+          {
+            "value": "school",
+            "label": "Public school funding"
+          }
         ],
-        "correct_value": "climate"
+        "correct_value": "education"
       },
-      "body": "Last summer's heat records were not an anomaly but a preview. Cities that once treated triple-digit days as rare emergencies now plan for them as seasonal fixtures. Yet our national conversation about climate policy still moves at the pace of election cycles, while the physics of warming obeys no ballot schedule.\n\nThe strongest argument for urgency is not abstract modeling but the ledger of costs already paid: crop failures, insurance withdrawals from coastal markets, and public-health systems stretched by smoke and flood season. Delaying investment in grid modernization and public transit is not fiscal conservatism; it is deferred catastrophe compounding with interest.\n\nOpponents of aggressive climate action often frame the choice as prosperity versus sacrifice. That framing ignores how much of our current prosperity is subsidized by fuels whose full price is pushed onto communities least equipped to absorb shocks. A serious transition policy would internalize those costs gradually rather than pretending they do not exist.\n\nWhat would credible leadership look like? First, binding interim targets tied to measurable reductions, not aspirational press releases. Second, direct support for workers in transitioning industries, because fairness is not a garnish on climate policy but its political precondition. Third, transparent reporting on corporate emissions with enforceable penalties for greenwashing.\n\nCritics say the United States cannot act alone. They are half right: global coordination matters. But waiting for perfect multilateral alignment has become a strategy for doing nothing at all. American innovation in clean energy can shift global markets when paired with consistent domestic demand.\n\nThe public is ahead of many legislators on this question. Poll after poll shows majorities willing to accept modest personal inconvenience if they trust the system is fair. What erodes that trust is watching subsidies flow to incumbents while households bear volatile energy bills alone.\n\nWe do not lack technical pathways. We lack the political will to choose among them openly and stick with the choice long enough for markets to respond. Climate policy is not a culture-war side issue; it is infrastructure planning at civilization scale.\n\nIf democracy means anything, it must mean the capacity to act before crises become irreversible. The window for manageable transition is narrowing. The question is whether our institutions can still run fast enough to catch up with the world they helped create."
+      "body": "Malala Yousafzai once said,”Let us remember: one book, one pen, one child and one teacher can change the world.” Now an honoured, esteemed Oxford University alumni, Malala does not stop advocating for education, despite her passion for school granting her a bullet to the head. This alone should push us to ask the question: what, exactly, is school for?\n\nSchools produce results: scores, rankings, and employable graduates for the workforce. Their success is measured through data points and economic return– metrics that are not just narrow, but also extremely misguided. At its best, school is a place where people learn how to think, relate, and most importantly, live, amongst a myriad of things. To morph academic institutions into factories for credentials or a conveyor belt to the labour market is not just a shame, but a great dishonour to society and its people.\n\nAcademic achievement matters, but the way we have come to measure it has distorted what it is supposed to represent. Standardised testing has become less a tool of assessment than a definition of success itself– because students are now trained to optimise for marks over meaning. They are taught to recall, to regurgitate, instead of question, or reflect, and so naturally, the system becomes one that valorises robotic compliance, and one that turns its back upon creativity, intellectual risk, and genuine interests– dimensions of learning that are just as, if not, arguably more important, but harder to quantify.\n\nThe social function of school is just as critical, but far less acknowledged. For many students, it is the first sustained encounter with difference: different socio-economic backgrounds, beliefs, cultures, and ways of thinking. Through this, they learn not just to cooperate, but also to disagree, and how to do so healthily. Speaking is learned to be met with listening, so that conversations can progress. These skills are imperative conditions in any pluralistic society. In an era defined by algorithmic echo chambers and polarisation, such skills are not optional– classrooms are, in effect, small democracies, where these habits of participation and communication are taught, and first rehearsed.\n\nThen there is care, the most undervalued function of academic institutions. Teachers are expected to impart the curriculum, but in practice, they do far more. For some, school is the only place where they feel recognised or safe. It’s also vital to note that many students are rescued from forms of domestic violence or neglect because their educators intervened. Yet, this is rarely rewarded or even recognised by education systems or in discourses about education. We have to recognise that without this aspect of school, learning becomes redundant– safety is always of utmost importance. Learning becomes not just redundant, but impossible, if the care of the student is not prioritised.\n\nNone of this is to deny that schools prepare students for work. They should, but when employability becomes the dominant goal, education is reduced to a transaction where time and effort are bartered for a promise of a future income. Students are recast as future workers before they are understood as whole, present persons, which is not solely reductive, but also self-defeating. Economies do not need graduates who can only follow instructions– they require people capable of adapting, of thinking critically, and of navigating uncertainty– capacities that only emerge from a more holistic conception of education.\n\nThe real question, then, is not whether school produces results, but rather what kind of people it produces. A meaningful education does more than transmit knowledge. It should shape judgement, cultivate empathy, and equip people for engaging with the world beyond and around them. These outcomes resist easy quantification, which is precisely why they are so often sidelined.\n\nMalala did not risk her life for better job prospects, or for highest test scores– she fought for the right to think, to question and imagine. To label schools as preparation is to do it unforgivable injustice, not just because it is not true, or accurate, but because it is the place where life, for most, in its fullest sense, begins. If we treat it as anything less, we diminish not only education, but the society it was designed to sustain.",
+      "pangram_needs_check": false,
+      "pangram": {
+        "checked_at": "2026-08-05T00:02:54.208Z",
+        "headline": "AI Generated",
+        "prediction": "We believe that this entire text is AI.",
+        "prediction_short": "AI",
+        "fraction_ai": 1,
+        "fraction_ai_assisted": 0,
+        "fraction_human": 0,
+        "version": "4.0"
+      }
     },
     {
       "id": "article_02",
-      "headline": "Why Cities Can't Build Their Way Out of the Housing Crisis",
-      "byline": "By Marcus Chen",
-      "authorship_type": "human",
+      "headline": "Who Decides What Students Learn?",
+      "author": "A",
+      "authorship_type": "ai_assisted",
       "active": true,
       "attention_check": {
         "id": "attention_article_02",
         "type": "multichoice",
         "text": "What was the main topic of this article?",
         "options": [
-          { "value": "housing", "label": "Urban housing affordability" },
-          { "value": "climate", "label": "Climate emissions targets" },
-          { "value": "remote", "label": "Remote work policies" }
+          {
+            "value": "curriculum",
+            "label": "School curriculum debates"
+          },
+          {
+            "value": "school",
+            "label": "Public school funding"
+          },
+          {
+            "value": "work",
+            "label": "Remote work policies"
+          }
         ],
-        "correct_value": "housing"
+        "correct_value": "curriculum"
       },
-      "body": "Every mayor facing a housing shortage hears the same advice: loosen zoning, approve more units, and let supply meet demand. That advice is not wrong, but it is incomplete in ways that matter for families searching for stable leases today.\n\nBuilding more housing is necessary, yet construction timelines stretch across years while rents rise by the month. Luxury towers that dominate skyline photos often add little to the stock affordable to teachers, nurses, or graduate students. Without guardrails, new supply can accelerate neighborhood turnover rather than broad affordability.\n\nLand use rules are only one choke point. Financing structures favor large developers with legal teams capable of navigating hearings that stretch across seasons. Small landlords and nonprofit builders face higher borrowing costs and greater regulatory uncertainty, which shrinks the diversity of housing produced.\n\nRent stabilization policies draw fierce debate. Detractors warn they discourage maintenance and new construction; supporters point to evidence that well-designed limits prevent displacement during tight markets. The empirical picture is mixed because design details matter enormously. Blanket dismissal or blanket endorsement both oversimplify.\n\nPublic housing investment remains politically unfashionable in many states, yet market-only solutions struggle to serve households below median income. Mixed-income developments can work when accompanied by long-term operating subsidies rather than one-time ribbon cuttings.\n\nTransportation policy is housing policy in disguise. Approving apartments without frequent transit leaves residents car-dependent, which effectively raises the cost of living even when headline rents look manageable. Walkable neighborhoods with services nearby reduce household budget pressure in ways spreadsheets often ignore.\n\nCommunity opposition to density frequently masks legitimate concerns about infrastructure strain. Schools, sewer capacity, and emergency services need parallel investment. Ignoring those concerns produces backlash that halts projects entirely.\n\nA credible housing agenda combines faster permitting for infill, targeted subsidies for lower-income units, and tenant protections that prevent retaliatory eviction during shortages. It also requires admitting that housing markets are not pure free markets; they are shaped by tax codes, credit access, and public land disposition.\n\nThe crisis will not end with a single legislative session. But cities that treat housing as a systems problem rather than a talking point can still make meaningful progress within a few years rather than a few decades."
+      "body": "At a recent school board meeting, a heated debate erupted over a single novel. Parents demanded its removal, citing discomfort; officials promised swift action; and teachers, largely sidelined, watched as a carefully designed curriculum unraveled in real time. Scenes like this are no longer isolated incidents but part of a growing pattern: education is being pulled into the orbit of political urgency and public anxiety. The question of who should decide what students read and learn has become less about pedagogy than power. Parents deserve a meaningful voice in their children’s education, but a voice is not the same as veto power. When elected officials transform individual concerns into curriculum mandates, classrooms risk becoming battlegrounds for ideology rather than spaces for inquiry, curiosity, and intellectual growth. \n\nThe deepest threat arises when legitimate concerns about education become fuel for political performance. Elected officials operate in a world defined by elections, public pressure, and immediate demands for action; education, by contrast, requires patience, expertise, and a willingness to confront complexity. When these forces collide, curriculum risks becoming a symbol in a broader cultural struggle rather than a tool for learning. Books are judged not by what they teach, but by the debates surrounding them. Historical subjects are narrowed not because students cannot handle complexity, but because complexity itself becomes politically inconvenient. Questions that should invite investigation are instead treated as threats to be managed. The purpose of a classroom is not to produce students who share identical views, but students capable of examining evidence, challenging assumptions, and forming their own informed conclusions. When politicians turn curriculum into a measure of ideological loyalty, education moves away from understanding and toward conformity. \n\nNone of this means parents should be excluded from the conversation. Parents have a legitimate stake in their children’s education, and their concerns about age-appropriateness, values, and student wellbeing deserve to be taken seriously. A strong education system should encourage meaningful dialogue between families and schools. But participation is not the same as control. A parent’s discomfort with a particular idea does not necessarily mean that idea is harmful, inappropriate, or unsuitable for every student. If every individual objection became grounds for removing books, topics, or perspectives from classrooms, education would no longer be shaped by what students need to understand—it would be shaped by what causes the least controversy. The purpose of education is not to protect students from complexity, but to equip them with the tools to confront it thoughtfully. \n\nThe answer is not to silence parents or eliminate public accountability, but to recognise that a functioning education system depends on clear responsibilities. Curriculum decisions should remain with educators, whose professional training equips them to evaluate what students need to learn and how they can best learn it. Parents should be welcomed as essential participants in the educational process—people who can question, discuss, and collaborate with schools without turning every disagreement into a demand for removal. Elected officials also have an important role: ensuring schools are properly funded, accessible, and equipped to serve students. But supporting education is fundamentally different from controlling it. A healthy system does not ask politicians to determine what belongs in a classroom; it asks them to create the conditions in which teachers and students can do their best work. \n\nUltimately, the debate over who decides what students learn is not only about books, lessons, or curriculum—it is about the kind of society education is meant to create. A system that removes every challenging idea from the classroom may produce students comfortable with agreement, but unprepared for disagreement. Education has never been about creating a world free from uncertainty; it is about equipping young people with the knowledge, judgment, and curiosity to navigate one. When schools are shaped only by what is politically safe or socially acceptable, students lose the opportunity to wrestle with difficult questions and develop intellectual independence. An education system that avoids complexity cannot prepare citizens for a world defined by it.",
+      "pangram_needs_check": false,
+      "pangram": {
+        "checked_at": "2026-08-04T00:50:53.239Z",
+        "headline": "AI Generated",
+        "prediction": "We believe that this entire text is AI.",
+        "prediction_short": "AI",
+        "fraction_ai": 1,
+        "fraction_ai_assisted": 0,
+        "fraction_human": 0,
+        "version": "4.0"
+      }
     },
     {
       "id": "article_03",
-      "headline": "Primary Care Deserves More Than Lip Service",
-      "byline": "By Elena Vasquez",
+      "headline": "Compulsory Immunisation Is How We Prepare for the Next Pandemic",
+      "author": "K",
       "authorship_type": "human",
       "active": true,
       "attention_check": {
@@ -49,18 +89,38 @@
         "type": "multichoice",
         "text": "What was the main topic of this article?",
         "options": [
-          { "value": "healthcare", "label": "Primary healthcare access" },
-          { "value": "immigration", "label": "Immigration reform" },
-          { "value": "education", "label": "Teacher retention" }
+          {
+            "value": "healthcare",
+            "label": "Healthcare access"
+          },
+          {
+            "value": "pandemic",
+            "label": "Pandemic preparedness"
+          },
+          {
+            "value": "immigration",
+            "label": "Immigration reform"
+          }
         ],
-        "correct_value": "healthcare"
+        "correct_value": "pandemic"
       },
-      "body": "When policymakers praise primary care while reimbursing it at secondary-tier rates, they send a clearer message than any white paper admits. The front door of the health system is treated as a loss leader, and practitioners respond rationally by leaving or shortening visits to unsustainable lengths.\n\nPrimary care prevents expensive downstream crises. Managing hypertension early avoids strokes; coordinating chronic conditions reduces emergency admissions. Yet fee schedules still reward procedures over conversations, and administrative burdens consume hours that could be spent with patients.\n\nMedical students graduate with debt that pushes them toward higher-paying specialties. Loan forgiveness tied to primary service exists on paper but often carries requirements so narrow that uptake remains low. Without structural payment reform, recruitment campaigns are advertising for jobs the system is designed to undervalue.\n\nRural shortages illustrate the problem starkly. A county may celebrate opening a new clinic while failing to fund the staffing pipeline that keeps it open. Telehealth expanded access during the pandemic, but broadband gaps and licensing barriers limit its reach where it is needed most.\n\nTeam-based models that include nurses, pharmacists, and community health workers can extend capacity when scopes of practice align with training. Some states have moved aggressively; others remain trapped in guild politics that prioritize territorial control over patient access.\n\nInsurance complexity adds hidden costs. A primary visit that requires prior authorization for basic tests turns clinicians into clerks and delays care. Simplifying billing for standard preventive services would return time to medicine rather than paperwork.\n\nEquity cannot be an appendix. Maternal mortality disparities and delayed diagnoses in underserved communities trace partly to absent or fragmented primary relationships. Trust built over repeated visits changes whether symptoms get reported early or late.\n\nReform proposals often focus on catastrophic coverage debates while ignoring the mundane appointments that shape daily health. Restoring primary care is not nostalgic; it is actuarial common sense.\n\nPatients feel the difference when they can reach a clinician who knows their history. Policymakers should fund that continuity as infrastructure, not as a charitable afterthought."
+      "body": "A University in Texas suggests that the real death toll of Covid 19 is close to 21.2 million people. That is almost the number of people who reside in Australia – and that number does not include cases of Long Covid which can also shorten life expectancy and therefore increase those mortality statistics. So the fact that most of our large workplaces and education facilities currently have no real precautionary practices in place for any kind of pandemic risk is both irresponsible and alarming. By treating the existence of viruses and infections like COVID-19, SARS or even monkeypox as something that is now just part of ordinary daily life, we are becoming way too complacent about the possibilities of another pandemic. The idea that we can now just be vaccinated against Covid or the yearly flu has allowed us to forgot about the contagious nature of those kinds of illnesses and their ability to spread quickly and exponentially. We are now falling asleep at the wheel.\n\nRecent scientific data suggests that even if you have had the Covid 19 vaccine, unless you get a booster shot every 6 months or so, and even then I’m not talking about those targeted at the new strains of the infection, you are still going to be losing something like approximately half of your defensive antibodies every 108 days or so. That means that if the jab gave you 90% protection in the beginning, after 6 months it would only be around 70% and without another dose of the vaccine it would just continue to wane. That means that in the last say 3-4 years most of us who were immunised during the pandemic are losing our ability to fight off Covid, as well as any other strain of the SARS virus. That is why bigger institutions and workplaces who have a large number of employees or who teach a large number of young people, must have safeguards and precautions put in place in case this kind of event happens again. \n\nI believe the most important piece of this puzzle is the need for employers at any largescale company or school to adopt the policy of compulsory immunisation. Yes – people want bodily autonomy but they can choose to not work there. And yes – people would have to prove that they were maintaining the number of boosters required to achieve sufficient herd immunity -  but this is the foundation needed for us to be better equipped to deal with another outbreak of Covid or something similar. \n\nI can understand that people don’t want to be told what to do, that they want choice, but is that enough to want to risk another lockdown? Another million people gone? I do not want to watch another family suffer the way mine did when my grandfather got sick and we could only wave him off to what would be his eventual his death through a clear glass window. Of course the only way to maintain this kind of precaution would be to also require the use of masks for those visiting the school or workplace but isn’t that a sacrifice we should be willing to make? If we could ensure that we don’t see another outbreak of the Corona virus would it not be a worthwhile enterprise? When I think back to those lockdown days where I spent hours watching news reports of more people getting sick, more people dying and I remember how terrifying it was, I still get a knot in my stomach and my throat closes up. If I had known that by keeping up with being vaccinated and wearing protection when I engaged with people I could prevent that situation from happening again – I would gladly be poked with a needle once every 6 months and flash my immunisation status to whomever wanted to see it.\n\nWe need to start preparing ourselves now because Covid 19 shook the very foundations of how we live, work and interact with each other. Rather than viewing the virus as just another inconvenience that our global existence has to consider, we need to remember the disruption and destruction it wrought upon us. Workplaces and educational institutions must develop better infrastructure in order to be prepared for the next Covid pandemic and that means compulsory immunisation. Get out there and get your booster shot so that we never have to live a ‘lockdown life’ again.",
+      "pangram_needs_check": false,
+      "pangram": {
+        "checked_at": "2026-08-04T00:50:55.442Z",
+        "headline": "Human Written",
+        "prediction": "We believe that this entire text is human-written.",
+        "prediction_short": "Human",
+        "fraction_ai": 0,
+        "fraction_ai_assisted": 0,
+        "fraction_human": 1,
+        "version": "4.0"
+      }
     },
     {
       "id": "article_04",
-      "headline": "Remote Work Is Settling Into Something Stranger Than We Expected",
-      "byline": "By David Okonkwo",
+      "headline": "Luck Is Not a Public Health Strategy",
+      "author": "K",
       "authorship_type": "ai_assisted",
       "active": true,
       "attention_check": {
@@ -68,37 +128,77 @@
         "type": "multichoice",
         "text": "What was the main topic of this article?",
         "options": [
-          { "value": "remote", "label": "Remote and hybrid work" },
-          { "value": "healthcare", "label": "Hospital staffing" },
-          { "value": "climate", "label": "Carbon pricing" }
+          {
+            "value": "remote",
+            "label": "Remote and hybrid work"
+          },
+          {
+            "value": "healthcare",
+            "label": "Hospital staffing"
+          },
+          {
+            "value": "pandemic",
+            "label": "Pandemic preparedness"
+          }
         ],
-        "correct_value": "remote"
+        "correct_value": "pandemic"
       },
-      "body": "The remote-work debate has exhausted its binary phase. Executives who demanded full return to offices discovered that mandates without rationale triggered resignations. Employees who insisted location should never matter learned that collaboration rhythms still depend on shared context. The emerging compromise is messier and more durable than either camp predicted.\n\nHybrid schedules dominate knowledge industries because they allocate commute time back to households while preserving in-person windows for onboarding and complex planning. The argument is no longer whether remote work works but how to design defaults that do not punish caregivers or junior staff seeking mentorship.\n\nCommercial real estate markets are adjusting unevenly. Downtown districts built around five-day foot traffic face vacant floors, while suburban coworking spaces fill with freelancers priced out of home office upgrades. Tax bases tied to office towers will force municipal budget conversations that lag behavioral shifts by years.\n\nProductivity metrics remain contested. Output per hour sometimes rises when workers control interruptions; innovation metrics can stall when serendipitous hallway conversations disappear. Teams that document decisions asynchronously report fewer misunderstandings than those relying on oral tradition alone.\n\nManagement training has not caught up. Supervising by presence is easy; supervising by outcomes requires clearer goals and better feedback loops. Organizations that equate visibility with virtue recreate surveillance cultures that undermine the trust remote arrangements require.\n\nLabor markets expanded geographically when hiring no longer demanded relocation. That expansion benefits workers in lower-cost regions and increases competition for incumbents in expensive hubs. Wage convergence is subtle but real in some sectors.\n\nTechnology stacks evolved quickly: video fatigue pushed async video updates; shared documents replaced status meetings. Security practices lagged when home networks became corporate perimeters overnight.\n\nPolicy questions follow workers across state lines. Tax withholding, labor law jurisdiction, and benefits portability remain unresolved at scale. States competing for remote residents offer incentives that may erode funding for local services newcomers also use.\n\nRemote work is not a temporary concession nor a universal entitlement. It is a redesign of when and where coordination happens. Institutions that treat it as a perk rather than an operating model will keep rediscovering the same conflicts each quarter."
+      "body": "A government's first responsibility is to protect its people. That principle lies at the heart of the social contract between citizens and the state. We elect representatives with the expectation that they will make decisions in the public interest, particularly when our safety and wellbeing are under threat. Yet when it comes to preparing for the next pandemic, Australians have every reason to ask an uncomfortable question: have our leaders truly learned the lessons of COVID-19, or have they simply moved on?\n\nThe COVID-19 pandemic exposed both strengths and weaknesses in Australia's response to a public health emergency. While some decisions undoubtedly saved lives, the overall response was often slow, inconsistent and, in many cases, devastating for families, businesses and healthcare workers. Thousands of Australians lost their lives, countless more experienced long-term health complications, and communities endured years of uncertainty. Those events should have prompted an enduring national conversation about preparedness. Instead, the discussion has largely disappeared.\n\nThat silence is troubling.\n\nPandemics are not once-in-a-century anomalies. Infectious disease experts have repeatedly warned that another global outbreak is not a matter of if, but when. COVID-19 may have faded from daily headlines, but viruses have not stopped evolving simply because the public has grown weary of hearing about them. SARS-related viruses continue to circulate, influenza remains a constant global threat, and diseases such as Ebola and mpox demonstrate how quickly outbreaks can emerge and spread in an increasingly connected world. Ignoring these realities does not reduce the risk; it merely leaves us more vulnerable when the next crisis arrives.\n\nThe question Australians should be asking is simple: what has changed since 2020?\n\nHave governments developed faster response plans? Are hospitals better equipped to cope with a sudden surge in patients? Are vaccine distribution strategies more efficient? Has communication between federal and state governments improved? Most importantly, are these plans publicly available so that Australians can have confidence in the systems designed to protect them?These should not be controversial questions. They are reasonable expectations in any modern democracy.\n\nTo be fair, inquiries were conducted into Australia's handling of COVID-19, and numerous reports examined both the public health response and the enormous economic consequences of the pandemic. Yet reports alone do not guarantee meaningful reform. Recommendations only matter if governments act on them and continue to review them as circumstances change. Unfortunately, pandemic preparedness no longer appears to occupy much space in our national conversation. It rarely features prominently during election campaigns. Parliamentary debate focuses on the issues dominating today's news cycle, while planning for future health emergencies receives comparatively little public attention. That may make political sense, but it is not responsible governance.\n\nMany Australians simply assume that governments have comprehensive plans ready to be activated if another dangerous virus emerges. Perhaps they do. But assumptions are not the same as transparency. Unless you work within the healthcare system or are directly involved in government planning, it is difficult to know what procedures currently exist or whether they have been updated to reflect the hard lessons of COVID-19. Every government, regardless of political persuasion, has a duty to ensure Australia is prepared for future health emergencies. Likewise, every opposition has a responsibility to scrutinise those preparations rather than waiting until the next crisis exposes their shortcomings. Public health should never become collateral damage in political point-scoring.\n\nDemocracies function best when voters ask difficult questions rather than assuming someone else already has the answers. We should expect our Health Minister, health departments and leading medical organisations to explain what has been learned since COVID-19 and what practical measures are now in place. The end of mandatory COVID-19 vaccinations and restrictions may have signalled a return to normal life, but it should not have marked the end of pandemic planning. Complacency is a dangerous substitute for preparedness. \n\nAustralia has often been called the lucky country. But luck is not a public health strategy. We cannot afford to rely on hope or assume that future outbreaks will somehow be less severe than COVID-19. The true measure of responsible leadership is not how governments respond once disaster strikes, but how thoroughly they prepare before it does.\n\nIf the next pandemic arrives tomorrow, Australians deserve the confidence of knowing their leaders have been planning for it today.",
+      "pangram_needs_check": false,
+      "pangram": {
+        "checked_at": "2026-08-04T01:05:57.199Z",
+        "headline": "AI Generated",
+        "prediction": "We believe that this entire text is AI.",
+        "prediction_short": "AI",
+        "fraction_ai": 1,
+        "fraction_ai_assisted": 0,
+        "fraction_human": 0,
+        "version": "4.0"
+      }
     },
     {
       "id": "article_05",
-      "headline": "Public Schools Need Stability, Not Another Fad",
-      "byline": "By Rachel Kim",
-      "authorship_type": "ai_assisted",
+      "headline": "How Platforms Trap Us in the Attention Economy",
+      "author": "R",
+      "authorship_type": "human",
       "active": true,
       "attention_check": {
         "id": "attention_article_05",
         "type": "multichoice",
         "text": "What was the main topic of this article?",
         "options": [
-          { "value": "education", "label": "Public education policy" },
-          { "value": "housing", "label": "Zoning reform" },
-          { "value": "remote", "label": "Hybrid workplaces" }
+          {
+            "value": "education",
+            "label": "Public education policy"
+          },
+          {
+            "value": "socialmedia",
+            "label": "Social media usage"
+          },
+          {
+            "value": "newspapers",
+            "label": "How people access news"
+          }
         ],
-        "correct_value": "education"
+        "correct_value": "socialmedia"
       },
-      "body": "American public schools absorb every societal stress test first: inequality, political polarization, technological disruption, and budget fights deferred from other agencies. Expecting them to innovate continuously while funding remains volatile is a recipe for burnout among the very educators students rely on.\n\nCurriculum wars dominate headlines, yet attendance patterns and staffing shortages may shape outcomes more directly. When classrooms rotate substitutes for months, even strong materials underperform. Stability of adult relationships in buildings is an undermeasured input.\n\nStandardized testing was supposed to illuminate gaps; it also narrowed instruction in ways defenders and critics still dispute. Any assessment regime that ignores growth trajectories for individual students risks mislabeling progress as failure, particularly in districts serving transient populations.\n\nTeacher preparation programs vary widely in rigor and placement support. Lateral entry pathways can fill vacancies quickly but may leave newcomers isolated unless mentoring is funded seriously rather than symbolically. Professional development days scattered across the calendar rarely add up to coherent skill building.\n\nSpecial education mandates reflect moral commitments the federal government partially funds at best. Local districts cover shortfalls by shifting resources from general programs, creating resentments that should be aimed upstream rather than at neighbors.\n\nTechnology purchases surged with emergency funds, but integration quality differs. Devices without connectivity at home amplify rather than close divides. Platforms promising personalized learning still require adult interpretation to translate data into instruction.\n\nSchool schedules built around agrarian calendars clash with dual-income households. Extended-year pilots show academic and childcare benefits when designed collaboratively with unions and families, yet scaling remains politically difficult despite bipartisan parent demand.\n\nAccountability should distinguish governance failures from classroom failures. Elected boards that micromanage reading lists while ignoring facility safety deserve scrutiny separate from teachers implementing policy they did not write.\n\nPublic education remains one of the few shared institutions left. Reform that respects that role must fund continuity, not chase novelty for its own sake."
+      "body": "It's been well over a decade since the popularity of platforms being integrated in our population across the globe. If asking for someone's phone number as a way to keep in touch was a norm back in the early 2000s, then the more common courtesy now is to ask for their social media account, you'll most likely understand that it's a norm to exist on these platforms. Given such context, platform usage is not much of a novelty, much as the same with the conversation about its design and the facilitated habits that comes with. Especially for the case of compulsive scrolling, or some would describe it as 'doomscrolling', the endless feed opens up a critical debate on the problems of cognitive dysfunction and our attention fragmentation, with this technology while posing the important question – who should be responsible for it?\n\nI'm a part of a generation who's exposed to social media platforms at a young age, my first ever Facebook account was created when I was 12. No one really taught me how to use it, the only goal back then was to play games and chat with other kids/strangers online about whatever topics it might be. Fast forward to 2026, the landscape hasn't been the same, I've now become an adult and the platforms I once knew also changed. There is a slight awareness within my cohort on how our relationship with the feed: Who do we follow? Does the algorithm affect our mood? How much control do we have on the screen and its buttons? But one common thread that we're somewhat aware of is the amount of time we've been spending on platforms as a hybrid option of both entertainment and personal connections. We start to wonder how come we can spend the entire evening just scrolling (while beating ourselves up that we can do much better than this). Afterall, a large part of being an adult is the ability to have some modicum of autonomy, especially for something supposedly as trivial as picking up our phones for a scroll. However, it appears to be much more complicated when it comes to the ability to control our habits, and some start to wonder whether these platforms' designs and its creators are the real culprit, or how philosophy would put it, is there truly free will or it's the universe's doing?\n\nIn this case, 'the universe' can be understood as platforms, and us mere users are its subjects. Of course, no platform is the same, and the robust digital markets do offer us several poisons to pick from. But for the more prominent choices like Facebook, Instagram, Tiktok, or the likes of it – The endless scroll is an integral part of how they trap us, to serve up the purpose of The Attention Economy. The intentional introduction of the endless scroll is known to capture users' retention and serve the purpose of getting users to engage with commercial activities via advertisement links, sponsored content. It's now become an industry that generates so much commercial activities, making the internet to be no longer the carefree social space like how it once was. Hence, the matter of platform design, or in this case, the endless scroll, becomes an ethical responsibility for platform companies to protect its users/consumers in this digital market.\n\nGiven the scale that platforms have become, it's hard to ignore the effects that it's brought to the population. Much like many other aspects in our social life: from education, labour, and many forms of consumption. Our participation within platforms only has a certain degree of choices and autonomy, while the much bigger issues of platform rules and designs would lie in the hands of the companies behind them. While it's possible that an individual can try to be active in their digital habit by finding ways to regulate their scrolling behavior, the responsibility for platforms to facilitate a better feature for its users is equally crucial, if not, even more critical.",
+      "pangram_needs_check": false,
+      "pangram": {
+        "checked_at": "2026-08-05T00:02:56.392Z",
+        "headline": "Human Written",
+        "prediction": "We believe that this entire text is human-written.",
+        "prediction_short": "Human",
+        "fraction_ai": 0,
+        "fraction_ai_assisted": 0,
+        "fraction_human": 1,
+        "version": "4.0"
+      }
     },
     {
       "id": "article_06",
       "headline": "Immigration Reform Cannot Wait for a Quieter News Cycle",
-      "byline": "By Omar Hassan",
+      "author": "none",
       "authorship_type": "ai_assisted",
       "active": true,
       "attention_check": {
@@ -106,13 +206,33 @@
         "type": "multichoice",
         "text": "What was the main topic of this article?",
         "options": [
-          { "value": "immigration", "label": "Immigration policy" },
-          { "value": "education", "label": "School curriculum" },
-          { "value": "healthcare", "label": "Medicare expansion" }
+          {
+            "value": "immigration",
+            "label": "Immigration policy"
+          },
+          {
+            "value": "education",
+            "label": "School curriculum"
+          },
+          {
+            "value": "healthcare",
+            "label": "Medicare expansion"
+          }
         ],
         "correct_value": "immigration"
       },
-      "body": "Immigration policy in the United States oscillates between crisis rhetoric and legislative paralysis. Border encounters dominate cable segments while backlogs in asylum courts grow quietly, measured in years rather than sound bites. A durable framework requires separating manageable operational problems from symbolic battles designed to mobilize bases.\n\nLabor markets tell a contradictory story. Sectors from agriculture to elder care rely on workers whose status remains precarious despite documented demand. Restricting pathways while employers recruit globally through uneven visa categories sustains the very informality enforcement-only approaches claim to oppose.\n\nLegal immigration channels remain under-resourced. Processing delays discourage compliance and separate families whose petitions follow rules yet stall in administrative queues. Investing in adjudication capacity is less photogenic than fencing debates but more predictive of order.\n\nRegional partnerships with origin countries can address root drivers of displacement when paired with humanitarian commitments rather than outsourced deterrence alone. Aid targeted at governance and climate adaptation reduces pressure over horizons longer than election terms, which explains why it rarely leads agendas.\n\nIntegration services determine whether newcomers become contributors quickly. Language instruction, credential recognition, and local sponsorship programs reduce friction that otherwise feeds resentment. Communities that receive resources alongside population growth adapt better than those left to absorb change without support.\n\nEnforcement priorities should focus on public safety threats rather than indiscriminate raids that chill reporting of crimes among mixed-status households. Trust between local institutions and residents affects everyone’s safety regardless of passport.\n\nDreamers and long-resident populations without status represent a moral and practical limbo Congress could resolve with pathways already debated for decades. Leaving them in uncertainty wastes human capital and perpetuates anxiety in classrooms and workplaces.\n\nRefugee caps send diplomatic signals beyond humanitarian math. Allies interpret resettlement commitments as indicators of reliability. Shrinking caps without transparent criteria undermines credibility in forums where cooperation on other issues matters.\n\nImmigration is not a problem to eliminate but a process to govern. Systems that combine fair rules, adequate staffing, and honest labor market alignment work better than cycles of permissiveness and crackdown. Waiting for a calm media environment means waiting forever."
+      "body": "Immigration policy in the United States oscillates between crisis rhetoric and legislative paralysis. Border encounters dominate cable segments while backlogs in asylum courts grow quietly, measured in years rather than sound bites. A durable framework requires separating manageable operational problems from symbolic battles designed to mobilize bases.\n\nLabor markets tell a contradictory story. Sectors from agriculture to elder care rely on workers whose status remains precarious despite documented demand. Restricting pathways while employers recruit globally through uneven visa categories sustains the very informality enforcement-only approaches claim to oppose.\n\nLegal immigration channels remain under-resourced. Processing delays discourage compliance and separate families whose petitions follow rules yet stall in administrative queues. Investing in adjudication capacity is less photogenic than fencing debates but more predictive of order.\n\nRegional partnerships with origin countries can address root drivers of displacement when paired with humanitarian commitments rather than outsourced deterrence alone. Aid targeted at governance and climate adaptation reduces pressure over horizons longer than election terms, which explains why it rarely leads agendas.\n\nIntegration services determine whether newcomers become contributors quickly. Language instruction, credential recognition, and local sponsorship programs reduce friction that otherwise feeds resentment. Communities that receive resources alongside population growth adapt better than those left to absorb change without support.\n\nEnforcement priorities should focus on public safety threats rather than indiscriminate raids that chill reporting of crimes among mixed-status households. Trust between local institutions and residents affects everyone’s safety regardless of passport.\n\nDreamers and long-resident populations without status represent a moral and practical limbo Congress could resolve with pathways already debated for decades. Leaving them in uncertainty wastes human capital and perpetuates anxiety in classrooms and workplaces.\n\nRefugee caps send diplomatic signals beyond humanitarian math. Allies interpret resettlement commitments as indicators of reliability. Shrinking caps without transparent criteria undermines credibility in forums where cooperation on other issues matters.\n\nImmigration is not a problem to eliminate but a process to govern. Systems that combine fair rules, adequate staffing, and honest labor market alignment work better than cycles of permissiveness and crackdown. Waiting for a calm media environment means waiting forever.",
+      "pangram_needs_check": false,
+      "pangram": {
+        "checked_at": "2026-08-04T00:51:00.281Z",
+        "headline": "AI Generated",
+        "prediction": "We believe that this entire text is AI.",
+        "prediction_short": "AI",
+        "fraction_ai": 1,
+        "fraction_ai_assisted": 0,
+        "fraction_human": 0,
+        "version": "4.0"
+      }
     }
   ]
 }

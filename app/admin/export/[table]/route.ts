@@ -5,10 +5,12 @@ import {
   exportRatingsCsv,
   exportSessionsCsv,
   exportSurveysCsv,
+  exportWideParticipantsCsv,
+  parseAdminFilters,
 } from "@/lib/admin";
 
 export async function GET(
-  _request: Request,
+  request: Request,
   context: { params: Promise<{ table: string }> },
 ) {
   const authed = await isAdminAuthenticated();
@@ -18,22 +20,31 @@ export async function GET(
 
   await ensureSchema();
   const { table } = await context.params;
+  const url = new URL(request.url);
+  const filters = parseAdminFilters({
+    id_contains: url.searchParams.get("id_contains") ?? undefined,
+    consented_after: url.searchParams.get("consented_after") ?? undefined,
+  });
 
   let csv: string;
   let filename: string;
 
   switch (table) {
     case "sessions":
-      csv = await exportSessionsCsv();
+      csv = await exportSessionsCsv(filters);
       filename = "sessions.csv";
       break;
     case "ratings":
-      csv = await exportRatingsCsv();
+      csv = await exportRatingsCsv(filters);
       filename = "ratings.csv";
       break;
     case "surveys":
-      csv = await exportSurveysCsv();
+      csv = await exportSurveysCsv(filters);
       filename = "surveys.csv";
+      break;
+    case "wide_participants":
+      csv = await exportWideParticipantsCsv(filters);
+      filename = "wide_participants.csv";
       break;
     default:
       return NextResponse.json({ error: "Unknown table" }, { status: 404 });

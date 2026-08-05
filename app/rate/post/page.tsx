@@ -11,12 +11,13 @@ export default async function PostRatingsPage() {
   return (
     <StudyShell>
     <h1>Rate the article again</h1>
+      <p>You now notice that there is an editor's note at the bottom of the article:</p>
       <div className="editors-note">
         <div className="editors-note-label">Editor&apos;s note</div>
         <p>{note}</p>
       </div>
       
-      <p className="muted">Please rate the article again using the same questions, given the editor's note above.</p>
+      <p>Please rate the article again using the same questions, given the editor's note above.</p>
       <QuestionnaireForm
         action="/api/ratings"
         questions={questions}

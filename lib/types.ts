@@ -28,14 +28,30 @@ export interface AttentionCheck {
   correct_value: string;
 }
 
+export interface PangramResult {
+  checked_at: string;
+  headline: string;
+  prediction: string;
+  prediction_short: string;
+  fraction_ai: number;
+  fraction_ai_assisted: number;
+  fraction_human: number;
+  version?: string;
+  error?: string;
+}
+
 export interface Article {
   id: string;
   headline: string;
-  byline: string;
+  author: string;
   body: string;
   authorship_type: AuthorshipType;
   active: boolean;
   attention_check: AttentionCheck;
+  /** Set true after editing the body to re-run Pangram on next admin check. */
+  pangram_needs_check: boolean;
+  /** Cached Pangram result; null until checked. */
+  pangram: PangramResult | null;
 }
 
 export interface LikertQuestion {

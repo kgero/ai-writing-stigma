@@ -21,13 +21,60 @@ This document is the build spec for the experiment web app.
 
 ### Railway setup
 
-- **Service 1:** Next.js app (GitHub-connected)
-- **Service 2:** PostgreSQL (Railway template → `DATABASE_URL` injected)
-- **Env vars:**
-  - `DATABASE_URL` — auto from Railway
-  - `COMPLETION_CODE` — static code shown at end of study
-  - `ADMIN_PASSWORD` — gates `/admin`
-  - `PROLIFIC_COMPLETION_URL` — optional redirect after completion
+Both services must live in the **same Railway project**.
+
+**Service 1:** Next.js app (GitHub-connected)  
+**Service 2:** PostgreSQL
+
+#### 1. Connect the app to Postgres
+
+On the **web app service** (not the database):
+
+1. Open **Variables**
+2. **New Variable** → **Add Reference** (or "Reference Variable")
+3. Select your **PostgreSQL** service → choose **`DATABASE_URL`**
+4. Save — Railway redeploys the app
+
+You should see something like `${{ Postgres.DATABASE_URL }}` as the value. Do not paste a local URL.
+
+Also set on the app service:
+
+| Variable | Example |
+|---|---|
+| `COMPLETION_CODE` | `YOUR-STUDY-CODE` |
+| `ADMIN_PASSWORD` | strong password |
+| `PROLIFIC_COMPLETION_URL` | optional |
+| `PANGRAM_API_KEY` | Pangram Labs API key (admin articles page) |
+
+#### 2. Create tables
+
+**Automatic (default):** On first request after deploy, the app runs `schema.sql` via `ensureSchema()` in `app/layout.tsx`. Visit your Railway URL once (e.g. `/`) to trigger it.
+
+**Manual (if needed):** From your machine with [Railway CLI](https://docs.railway.app/develop/cli) linked to the project:
+
+```bash
+railway link
+railway run psql "$DATABASE_URL" -f schema.sql
+```
+
+Or copy the **public** Postgres connection string from Railway → Postgres → Connect, then locally:
+
+```bash
+psql "<DATABASE_URL>" -f schema.sql
+```
+
+#### 3. Verify
+
+- Open `https://your-app.up.railway.app/` — landing page loads
+- Open `/admin` — login works; dashboard shows zeros (no data yet)
+- In Railway Postgres → **Data** tab (or `psql`): tables `sessions`, `study_state`, `ratings`, `survey_responses` exist
+
+#### Env vars (summary)
+
+- `DATABASE_URL` — reference from Postgres service (required)
+- `COMPLETION_CODE` — static code shown at end of study
+- `ADMIN_PASSWORD` — gates `/admin`
+- `PROLIFIC_COMPLETION_URL` — optional redirect after completion
 
 Study settings (reading time, contact email, etc.) live in `content/config.json`, not env vars.
 
@@ -428,6 +475,7 @@ Create `.env.local`:
 DATABASE_URL=postgresql://localhost:5432/ai_writing_stigma
 COMPLETION_CODE=TEST-COMPLETE
 ADMIN_PASSWORD=dev-admin
+PANGRAM_API_KEY=your-pangram-key
 # optional
 PROLIFIC_COMPLETION_URL=
 ```

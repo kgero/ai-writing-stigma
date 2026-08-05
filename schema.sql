@@ -42,3 +42,10 @@ CREATE TABLE IF NOT EXISTS survey_responses (
 );
 
 CREATE INDEX IF NOT EXISTS idx_sessions_completed_at ON sessions(completed_at);
+
+CREATE TABLE IF NOT EXISTS pangram_results (
+  article_id TEXT PRIMARY KEY,
+  body_hash TEXT NOT NULL,
+  result JSONB NOT NULL,
+  checked_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
