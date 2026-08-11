@@ -5,12 +5,6 @@
       "type": "openended",
       "text": "What do you think this study was about?",
       "optional": true
-    },
-    {
-      "id": "exit_anything_else",
-      "type": "openended",
-      "text": "Anything else you would like to share?",
-      "optional": true
     }
   ]
 }
