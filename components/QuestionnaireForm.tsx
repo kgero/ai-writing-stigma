@@ -1,10 +1,10 @@
 "use client";
 
-import { useState, type CSSProperties } from "react";
+import { useState } from "react";
 import LikertQuestion from "./LikertQuestion";
 import MultichoiceQuestion from "./MultichoiceQuestion";
 import OpenEndedQuestion from "./OpenEndedQuestion";
-import type { Question } from "@/lib/types";
+import { isResponseQuestion, type Question } from "@/lib/types";
 
 export default function QuestionnaireForm({
   action,
@@ -30,6 +30,7 @@ export default function QuestionnaireForm({
     const responses: Record<string, string> = {};
 
     for (const q of questions) {
+      if (!isResponseQuestion(q)) continue;
       const val = formData.get(q.id);
       const isEmpty = val === null || String(val).trim() === "";
       if (isEmpty) {
@@ -75,6 +76,23 @@ export default function QuestionnaireForm({
   return (
     <form onSubmit={handleSubmit}>
       {questions.map((q) => {
+        if (q.type === "section") {
+          return (
+            <div key={q.id} className="survey-section">
+              <h2>{q.title}</h2>
+              {q.text && <p className="survey-section-text">{q.text}</p>}
+              {q.scale_labels && q.scale_labels.length > 0 && (
+                <ol className="survey-section-scale">
+                  {q.scale_labels.map((label, i) => (
+                    <li key={i}>
+                      {i + 1}. {label}
+                    </li>
+                  ))}
+                </ol>
+              )}
+            </div>
+          );
+        }
         if (q.type === "likert") {
           return <LikertQuestion key={q.id} question={q} name={q.id} />;
         }

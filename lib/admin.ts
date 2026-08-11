@@ -335,9 +335,15 @@ export async function exportWideParticipantsCsv(
   }
 
   const ratingIds = getRatingsQuestions().map((q) => q.id);
-  const demoIds = getSurveyQuestions("pre").map((q) => q.id);
-  const exitIds = getSurveyQuestions("post").map((q) => q.id);
-  const reflectionIds = getSurveyQuestions("reflection").map((q) => q.id);
+  const demoIds = getSurveyQuestions("pre")
+    .filter((q) => q.type !== "section")
+    .map((q) => q.id);
+  const exitIds = getSurveyQuestions("post")
+    .filter((q) => q.type !== "section")
+    .map((q) => q.id);
+  const reflectionIds = getSurveyQuestions("reflection")
+    .filter((q) => q.type !== "section")
+    .map((q) => q.id);
 
   const headers = [
     "session_id",

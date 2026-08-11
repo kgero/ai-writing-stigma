@@ -1,6 +1,12 @@
 {
   "questions": [
     {
+      "id": "demographics",
+      "type": "section",
+      "title": "Demographics",
+      "text": "Please answer the following questions about yourself."
+    },
+    {
       "id": "demo_age",
       "type": "multichoice",
       "text": "What is your age range?",
@@ -13,20 +19,193 @@
       ]
     },
     {
+      "id": "demo_gender",
+      "type": "multichoice",
+      "text": "What is your gender?",
+      "options": [
+        { "value": "woman", "label": "woman" },
+        { "value": "man", "label": "man" },
+        { "value": "non-binary", "label": "non-binary" },
+        { "value": "no-disclosure", "label": "prefer not to disclose" },
+        { "value": "self-describe", "label": "prefer to self-describe" }
+      ]
+    },
+    {
       "id": "demo_education",
       "type": "multichoice",
       "text": "What is your highest level of education completed?",
       "options": [
         { "value": "high_school", "label": "High school or equivalent" },
-        { "value": "some_college", "label": "Some college" },
+        { "value": "some_college", "label": "Some college or university" },
         { "value": "bachelors", "label": "Bachelor's degree" },
         { "value": "graduate", "label": "Graduate degree" }
       ]
     },
     {
-      "id": "demo_news_reading",
+      "id": "section_mtu_freq",
+      "type": "section",
+      "title": "Media & Technology Habits",
+      "text": "How often do you do each of the following?"
+    },
+    {
+      "id": "mtu_freq_internet_news",
       "type": "likert",
-      "text": "I read opinion articles online regularly.",
+      "text": "Search the Internet for news",
+      "scale": 10,
+      "anchors": { "low": "Never", "high": "All the time" },
+      "labels": [
+        "Never",
+        "Once a month",
+        "Several times a month",
+        "Once a week",
+        "Several times a week",
+        "Once a day",
+        "Several times a day",
+        "Once an hour",
+        "Several times an hour",
+        "All the time"
+      ]
+    },
+    {
+      "id": "mtu_freq_opinion",
+      "type": "likert",
+      "text": "Read opinion articles or editorials",
+      "scale": 10,
+      "anchors": { "low": "Never", "high": "All the time" },
+      "labels": [
+        "Never",
+        "Once a month",
+        "Several times a month",
+        "Once a week",
+        "Several times a week",
+        "Once a day",
+        "Several times a day",
+        "Once an hour",
+        "Several times an hour",
+        "All the time"
+      ]
+    },
+    {
+      "id": "mtu_freq_social",
+      "type": "likert",
+      "text": "Check social media sites",
+      "scale": 10,
+      "anchors": { "low": "Never", "high": "All the time" },
+      "labels": [
+        "Never",
+        "Once a month",
+        "Several times a month",
+        "Once a week",
+        "Several times a week",
+        "Once a day",
+        "Several times a day",
+        "Once an hour",
+        "Several times an hour",
+        "All the time"
+      ]
+    },
+    {
+      "id": "mtu_freq_ai_chatbots",
+      "type": "likert",
+      "text": "Use AI chatbots like ChatGPT, Gemini or Copilot",
+      "scale": 10,
+      "anchors": { "low": "Never", "high": "All the time" },
+      "labels": [
+        "Never",
+        "Once a month",
+        "Several times a month",
+        "Once a week",
+        "Several times a week",
+        "Once a day",
+        "Several times a day",
+        "Once an hour",
+        "Several times an hour",
+        "All the time"
+      ]
+    },
+    {
+      "id": "mtu_freq_spellcheck",
+      "type": "likert",
+      "text": "Use spelling or grammar checking tools",
+      "scale": 10,
+      "anchors": { "low": "Never", "high": "All the time" },
+      "labels": [
+        "Never",
+        "Once a month",
+        "Several times a month",
+        "Once a week",
+        "Several times a week",
+        "Once a day",
+        "Several times a day",
+        "Once an hour",
+        "Several times an hour",
+        "All the time"
+      ]
+    },
+    {
+      "id": "mtu_freq_ai_writing",
+      "type": "likert",
+      "text": "Use AI tools to help with writing tasks",
+      "scale": 10,
+      "anchors": { "low": "Never", "high": "All the time" },
+      "labels": [
+        "Never",
+        "Once a month",
+        "Several times a month",
+        "Once a week",
+        "Several times a week",
+        "Once a day",
+        "Several times a day",
+        "Once an hour",
+        "Several times an hour",
+        "All the time"
+      ]
+    },
+    {
+      "id": "section_mtu_agree",
+      "type": "section",
+      "title": "Media & Technology Attitudes",
+      "text": "Please indicate how much you agree or disagree with each statement."
+    },
+    {
+      "id": "mtu_agree_tech_solutions",
+      "type": "likert",
+      "text": "Technology will provide solutions to many of our problems",
+      "scale": 7,
+      "anchors": { "low": "Strongly disagree", "high": "Strongly agree" }
+    },
+    {
+      "id": "mtu_agree_ai_improve_work",
+      "type": "likert",
+      "text": "I believe that AI will improve my work",
+      "scale": 7,
+      "anchors": { "low": "Strongly disagree", "high": "Strongly agree" }
+    },
+    {
+      "id": "mtu_agree_tech_complicated",
+      "type": "likert",
+      "text": "New technology makes life more complicated",
+      "scale": 7,
+      "anchors": { "low": "Strongly disagree", "high": "Strongly agree" }
+    },
+    {
+      "id": "mtu_agree_ai_text_quality",
+      "type": "likert",
+      "text": "AI-generated text is generally high quality",
+      "scale": 7,
+      "anchors": { "low": "Strongly disagree", "high": "Strongly agree" }
+    },
+    {
+      "id": "mtu_agree_effort_writing",
+      "type": "likert",
+      "text": "I can usually tell how much effort went into a piece of writing",
+      "scale": 7,
+      "anchors": { "low": "Strongly disagree", "high": "Strongly agree" }
+    },
+    {
+      "id": "mtu_agree_ai_writing_quality",
+      "type": "likert",
+      "text": "AI tools can improve one's writing quality",
       "scale": 7,
       "anchors": { "low": "Strongly disagree", "high": "Strongly agree" }
     }

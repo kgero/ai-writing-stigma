@@ -60,6 +60,8 @@ export interface LikertQuestion {
   text: string;
   scale: number;
   anchors: { low: string; high: string };
+  /** When set (length === scale), render a labeled vertical scale instead of numbered endpoints. */
+  labels?: string[];
 }
 
 export interface MultichoiceQuestion {
@@ -76,7 +78,26 @@ export interface OpenEndedQuestion {
   optional?: boolean;
 }
 
-export type Question = LikertQuestion | MultichoiceQuestion | OpenEndedQuestion;
+export interface SectionBlock {
+  id: string;
+  type: "section";
+  title: string;
+  text?: string;
+  /** Optional numbered scale legend shown under the section intro. */
+  scale_labels?: string[];
+}
+
+export type Question =
+  | LikertQuestion
+  | MultichoiceQuestion
+  | OpenEndedQuestion
+  | SectionBlock;
+
+export function isResponseQuestion(
+  q: Question,
+): q is LikertQuestion | MultichoiceQuestion | OpenEndedQuestion {
+  return q.type !== "section";
+}
 
 export interface SessionRow {
   id: string;

@@ -146,6 +146,83 @@ h3 {
   line-height: 1.5;
 }
 
+.consent-body {
+  margin: 1.5rem 0;
+}
+
+.consent-section {
+  margin: 1.5rem 0;
+}
+
+.consent-section h2 {
+  font-size: 1.15rem;
+  margin: 0 0 0.5rem;
+}
+
+.consent-section ol,
+.consent-section ul {
+  margin: 0.5rem 0 0.75rem;
+  padding-left: 1.35rem;
+}
+
+.consent-section li {
+  margin-bottom: 0.35rem;
+}
+
+.survey-section {
+  margin: 2rem 0 1.25rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.survey-section:first-child {
+  margin-top: 1rem;
+  padding-top: 0;
+  border-top: none;
+}
+
+.survey-section h2 {
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem;
+}
+
+.survey-section-text {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+}
+
+.survey-section-scale {
+  margin: 0.75rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.9rem;
+  color: var(--muted);
+  columns: 2;
+  column-gap: 1.5rem;
+}
+
+.survey-section-scale li {
+  break-inside: avoid;
+  margin-bottom: 0.25rem;
+}
+
+.likert-labeled {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.likert-labeled label {
+  display: flex;
+  gap: 0.55rem;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.likert-labeled input {
+  margin-top: 0.2rem;
+}
+
 .question-block {
   margin-bottom: 1.75rem;
 }

@@ -13,6 +13,26 @@ export default function LikertQuestion({
   required?: boolean;
 }) {
   const scale = question.scale;
+  const labels = question.labels;
+
+  if (labels && labels.length === scale) {
+    return (
+      <div className="question-block">
+        <p className="question-text">{question.text}</p>
+        <div className="likert-labeled" role="radiogroup" aria-label={question.text}>
+          {labels.map((label, i) => {
+            const n = i + 1;
+            return (
+              <label key={n}>
+                <input type="radio" name={name} value={n} required={required} />
+                <span>{label}</span>
+              </label>
+            );
+          })}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="question-block">
