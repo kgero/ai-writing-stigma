@@ -3,7 +3,7 @@
     {
       "id": "ratings_change_reflection",
       "type": "openended",
-      "text": "Did your ratings change after the authorship disclosure? Why or why not?"
+      "text": "Did your ratings change after reading the editor's note? Why or why not?"
     },
     {
       "id": "anything_else",

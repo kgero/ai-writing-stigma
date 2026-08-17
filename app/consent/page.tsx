@@ -54,7 +54,7 @@ export default async function ConsentPage({
           Sciences IRB (HSBS)
         </p>
         <p>
-          <strong>IRB number:</strong> XXX
+          <strong>IRB number:</strong> HUM00298609
         </p>
         <p>
           <strong>IRB contact (questions about your rights as a participant):</strong>{" "}
@@ -77,7 +77,7 @@ export default async function ConsentPage({
               survey&quot;).
             </li>
           </ol>
-          <p>The whole session will take about 5 minutes.</p>
+          <p>The whole session will take about 10 minutes.</p>
         </div>
 
         <div className="consent-section">
@@ -111,7 +111,7 @@ export default async function ConsentPage({
         <div className="consent-section">
           <h2>Will I be paid?</h2>
           <p>
-            Yes. Upon completing the study, you will receive $3.00 base payment via
+            Yes. Upon completing the study, you will receive $4.00 base payment via
             Prolific. Payment may be prorated if you withdraw early.
           </p>
         </div>

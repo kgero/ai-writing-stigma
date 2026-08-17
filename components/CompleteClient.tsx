@@ -3,12 +3,10 @@
 import { useEffect, useState } from "react";
 import StudyShell from "@/components/StudyShell";
 
-function CompleteContent({
+export default function CompleteClient({
   completionCode,
-  prolificUrl,
 }: {
   completionCode: string;
-  prolificUrl: string | null;
 }) {
   const [done, setDone] = useState(false);
 
@@ -34,25 +32,6 @@ function CompleteContent({
         {completionCode}
       </p>
       <p className="muted">Please copy this code and submit it on Prolific to receive payment.</p>
-      {prolificUrl && (
-        <p>
-          <a href={prolificUrl} className="btn">
-            Return to Prolific
-          </a>
-        </p>
-      )}
     </StudyShell>
-  );
-}
-
-export default function CompletePageWrapper({
-  completionCode,
-  prolificUrl,
-}: {
-  completionCode: string;
-  prolificUrl: string | null;
-}) {
-  return (
-    <CompleteContent completionCode={completionCode} prolificUrl={prolificUrl} />
   );
 }
