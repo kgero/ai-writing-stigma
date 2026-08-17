@@ -1,5 +1,5 @@
 {
-  "control": "The author has disclosed that AI tools were not used in the writing of this piece.",
-  "disclosure": "The author has disclosed that AI tools were used in the writing of this piece.",
-  "revelation": "The author did not disclose that AI tools were used in the writing of this piece, however, following publication, a review of the writing identified the use of AI tools."
+  "control": "Before publication, the author stated that AI tools were not used to help write this piece.",
+  "disclosure": "Before publication, the author stated that AI tools were used to help write this piece.",
+  "revelation": "Before publication, the author did not disclose any AI use. After publication, a review of the writing process found that AI tools had been used to help write this piece."
 }

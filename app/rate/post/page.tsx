@@ -11,9 +11,9 @@ export default async function PostRatingsPage() {
   return (
     <StudyShell>
     <h1>Rate the article again</h1>
-      <p>You now notice that there is an editor's note at the bottom of the article:</p>
+      <p>The publication included the following note about how this piece was written:</p>
       <div className="editors-note">
-        <div className="editors-note-label">Editor&apos;s note</div>
+        <div className="editors-note-label">Publication note</div>
         <p>{note}</p>
       </div>
       

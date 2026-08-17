@@ -15,6 +15,20 @@
       "anchors": { "low": "Strongly disagree", "high": "Strongly agree" }
     },
     {
+      "id": "author_trustworthy",
+      "type": "likert",
+      "text": "The author of the article is trustworthy.",
+      "scale": 7,
+      "anchors": { "low": "Strongly disagree", "high": "Strongly agree" }
+    },
+    {
+      "id": "author_honest",
+      "type": "likert",
+      "text": "The author of the article is honest.",
+      "scale": 7,
+      "anchors": { "low": "Strongly disagree", "high": "Strongly agree" }
+    },
+    {
       "id": "willingness_read_again",
       "type": "likert",
       "text": "I would read another piece by this author.",

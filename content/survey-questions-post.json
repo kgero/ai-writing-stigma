@@ -1,10 +1,27 @@
 {
   "questions": [
     {
-      "id": "study_guess",
-      "type": "openended",
-      "text": "What do you think this study was about?",
-      "optional": true
+      "id": "note_comprehension",
+      "type": "multichoice",
+      "text": "What did the publication note say?",
+      "options": [
+        {
+          "value": "not_used",
+          "label": "The author stated that AI tools were not used."
+        },
+        {
+          "value": "used",
+          "label": "The author stated that AI tools were used."
+        },
+        {
+          "value": "later_found",
+          "label": "The author did not disclose AI use before publication, but a later review found that AI tools had been used."
+        },
+        {
+          "value": "dont_remember",
+          "label": "I do not remember."
+        }
+      ]
     }
   ]
 }
