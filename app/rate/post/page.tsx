@@ -17,7 +17,7 @@ export default async function PostRatingsPage() {
         <p>{note}</p>
       </div>
       
-      <p>Please rate the article again using the same questions, given the editor's note above.</p>
+      <p>Please rate the article again using the same questions, given the publication note above.</p>
       <QuestionnaireForm
         action="/api/ratings"
         questions={questions}
